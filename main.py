@@ -6,12 +6,10 @@ from aiogram.types import Message
 from aiogram.filters import CommandStart
 from dotenv import load_dotenv
 
-from weather import get_weather
+from weather import get_async_weather
 
 load_dotenv()
-
 TOKEN = os.getenv('TOKEN')
-
 dp = Dispatcher()
 
 
@@ -24,10 +22,11 @@ async def welcome(message: Message):
 async def weather(message: Message):
     try:
         city = message.text.split(' ')[1]
-        info = get_weather(city)
+        info = await get_async_weather(city)
         await message.answer(info)
     except IndexError:
         await message.answer("Please provide a city name after /weather")
+
 
 async def main() -> None:
     bot = Bot(TOKEN)
