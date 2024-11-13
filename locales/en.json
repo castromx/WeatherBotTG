@@ -1,0 +1,5 @@
+{
+    "welcome": "Hello, type /weather [city] to get information or /language to choose language!",
+    "enter_city": "Please provide a city name after /weather",
+    "language_set": "Language set to English"
+}

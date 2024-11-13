@@ -1,6 +1,8 @@
 import os
 import aiohttp
 from dotenv import load_dotenv
+from aiogram.utils.i18n import gettext as _
+
 load_dotenv()
 
 API_KEY = os.getenv("OW_API")
@@ -15,6 +17,6 @@ async def get_async_weather(city_name, lang='en', api_key=API_KEY):
             weather = data['weather'][0]['description']
             temperature = data['main']['temp']
             humidity = data['main']['humidity']
-            return f"Weather: {weather}, Temperature: {temperature}°C, Humidity: {humidity}%"
+            return _(f"Weather: {weather}, Temperature: {temperature}°C, Humidity: {humidity}%")
         else:
-            return "Error retrieving weather data"
+            return _("Error retrieving weather data")
