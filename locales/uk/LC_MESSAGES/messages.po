@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-11-13 22:06+0100\n"
-"PO-Revision-Date: 2024-11-13 22:06+0100\n"
+"POT-Creation-Date: 2024-11-14 17:11+0100\n"
+"PO-Revision-Date: 2024-11-14 17:11+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: uk\n"
 "Language-Team: uk <LL@li.org>\n"
@@ -19,28 +19,18 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.16.0\n"
 
-#: main.py:25
-msgid "welcome"
-msgstr ""
+#: main.py:26
+msgid "Hello, type a /weather [city] to get information or /language to choose language!"
+msgstr "Привіт, введіть /weather [місто], щоб отримати інформацію, або /language, щоб вибрати мову!"
 
-#: main.py:36
-msgid "enter_city"
-msgstr ""
-
-#: main.py:45
-msgid "language_set"
-msgstr ""
-
-#: main.py:47
-msgid "available_languages"
-msgstr ""
+#: main.py:38
+msgid "Please provide a city name after /weather"
+msgstr "Будь ласка, вкажіть назву міста після /weather"
 
 #: main.py:49
-msgid "provide_language_code"
-msgstr ""
-
+msgid "Choose your language:"
+msgstr "Виберіть вашу мову:"
 
 #: weather.py:22
 msgid "Error retrieving weather data"
-msgstr ""
-
+msgstr "Помилка при отриманні даних про погоду"

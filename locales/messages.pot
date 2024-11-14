@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-11-13 22:06+0100\n"
+"POT-Creation-Date: 2024-11-14 17:11+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,32 +17,18 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.16.0\n"
 
-#: main.py:25
-msgid "welcome"
+#: main.py:26
+msgid ""
+"Hello, type a /weather [city] to get information or /language to choose "
+"language!"
 msgstr ""
 
-#: main.py:36
-msgid "enter_city"
-msgstr ""
-
-#: main.py:45
-msgid "language_set"
-msgstr ""
-
-#: main.py:47
-msgid "available_languages"
+#: main.py:38
+msgid "Please provide a city name after /weather"
 msgstr ""
 
 #: main.py:49
-msgid "provide_language_code"
-msgstr ""
-
-#: temp.py:66
-msgid "Hello, <b>{user}</b>!"
-msgstr ""
-
-#: temp.py:72
-msgid "Your current language: <i>{language}</i>"
+msgid "Choose your language:"
 msgstr ""
 
 #: weather.py:22
